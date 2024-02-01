@@ -29,13 +29,13 @@ openapi-type: data-plane
 tag: package-2023-03-06
 ```
 
-### Tag: package-2024-01-22-preview
+### Tag: package-2022-04-07-preview
 
-These settings apply only when `--tag=package-2024-01-22-preview` is specified on the command line.
+These settings apply only when `--tag=package-2022-04-07-preview` is specified on the command line.
 
-```yaml
+```yaml $(tag) == 'package-2022-04-07-preview'
 input-file:
-  - preview/2024-01-22-preview/communicationservicescallautomation.json
+  - preview/2022-04-07-preview/communicationservicescallautomation.json
 title: Azure Communication Services
 ```
 
@@ -43,20 +43,20 @@ title: Azure Communication Services
 
 These settings apply only when `--tag=package-2023-03-06` is specified on the command line.
 
-```yaml
+```yaml $(tag) == 'package-2023-03-06'
 input-file:
   - stable/2023-03-06/communicationservicescallautomation.json
 title:
   Azure Communication Services
 ```
 
-### Tag: package-2023-10-03-preview
+### Tag: package-2023-06-15-preview
 
-These settings apply only when `--tag=package-2023-10-03-preview` is specified on the command line.
+These settings apply only when `--tag=package-2023-06-15-preview` is specified on the command line.
 
-```yaml
+```yaml $(tag) == 'package-2023-06-15-preview'
 input-file:
-  - preview/2023-10-03-preview/communicationservicescallautomation.json
+  - preview/2023-06-15-preview/communicationservicescallautomation.json
 title:
   Azure Communication Services
 ```
