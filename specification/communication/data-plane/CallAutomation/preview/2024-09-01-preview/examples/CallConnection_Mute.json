@@ -1,7 +1,7 @@
 {
   "parameters": {
     "endpoint": "https://contoso.communications.azure.com",
-    "api-version": "2023-06-15-preview",
+    "api-version": "2024-09-01-preview",
     "callConnectionId": "18dea47f-b081-4107-9a5c-4300819d2c6c",
     "muteParticipantsRequest": {
       "targetParticipants": [
@@ -16,7 +16,7 @@
     }
   },
   "responses": {
-    "202": {
+    "200": {
       "body": {
         "operationContext": "mute participant"
       }
